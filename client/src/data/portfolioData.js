@@ -1,6 +1,3 @@
-// Edit everything below with your own details.
-// This is the only file most people need to touch to personalize the site.
-
 export const profile = {
   name: "Tasnia Chowdhury",
   role: "Full-Stack Developer",
@@ -9,8 +6,8 @@ export const profile = {
   location: "Chattogram, Bangladesh",
   email: "ctasnia1812@gmail.com",
   //phone: "+880 1XXXXXXXXX",
-  resumeFile: "/tcresume.pdf", // drop your resume PDF into client/public/resume.pdf
-  profileImage: "/mypic.png", // drop your photo into client/public/profile.jpg
+  resumeFile: "/tcresume.pdf",
+  profileImage: "/mypic.png", 
   social: {
     github: "https://github.com/c-tasnia",
     // linkedin: "https://linkedin.com/in/yourusername",
