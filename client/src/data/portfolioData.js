@@ -84,12 +84,12 @@ export const projects = [
   },
   
   {
-    title: "E-Commerce Platform",
+    title: "World Cup 2026 Tracker",
     description:
-      "Full MERN e-commerce app with product catalog, cart, Stripe checkout, and an admin dashboard for order management.",
-    tags: ["MongoDB", "Express", "React", "Node.js", "Stripe", "PostgreSQL"],
-    github: "https://github.com/yourusername/ecommerce-app",
-    live: "https://your-demo-link.vercel.app",
+      "Live scoreboard dashboard for the tournament with real-time group standings, fixtures, top scorers, and an interactive knockout bracket.",
+   tags: ["JavaScript", "HTML5", "CSS3", "Data Visualization", "REST API", "Responsive Design"],
+    // github: "https://github.com/yourusername/ecommerce-app",
+    live: "https://wc2026-liard-sigma.vercel.app/",
     
   },
 ];
