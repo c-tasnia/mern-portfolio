@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, CheckCircle2 } from "lucide-react";
 import { profile } from "../data/portfolioData";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "", website: "" });
