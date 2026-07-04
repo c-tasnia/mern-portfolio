@@ -1,0 +1,9 @@
+Add these two files to this folder (client/public/):
+
+1. profile.jpg   — your photo, used in the About section
+2. resume.pdf    — your resume, used by the "Download Resume" button
+
+Both are referenced by name in client/src/data/portfolioData.js
+(profile.profileImage and profile.resumeFile) if you want to rename them.
+
+Delete this txt file once you've added your own assets.
