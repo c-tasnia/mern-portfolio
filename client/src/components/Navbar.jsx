@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 const tabs = [
   { id: "about", label: "About.jsx" },
   { id: "experience", label: "Experience.jsx" },
+  { id: "education", label: "Education.jsx" },
   { id: "projects", label: "Projects.jsx" },
   { id: "contact", label: "Contact.jsx" },
 ];

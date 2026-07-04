@@ -1,3 +1,5 @@
+import { University } from "lucide-react";
+
 export const profile = {
   name: "Tasnia Chowdhury",
   role: "Full-Stack Developer",
@@ -17,7 +19,7 @@ export const profile = {
 
 export const about = {
   summary: [
-    "I'm a full-stack developer who works across the MERN stack — designing schemas in MongoDB, building APIs in Express and Node, and shipping interfaces in React that people actually enjoy using.",
+    "I'm a full-stack developer who works across the MERN stack designing schemas in MongoDB, building APIs in Express and Node, and shipping interfaces in React that people actually enjoy using.",
     "I care about clean architecture, readable code, and shipping things that hold up in production, not just in a demo. I like picking apart a problem until the simplest solution is obvious.",
   ],
   stack: {
@@ -52,44 +54,86 @@ export const experience = [
   },
 ];
 
+
+export const education = [
+  {
+    university: "Premier University Chattogram",
+    subject: "Bsc in CSE",
+    period: "2023 — 2027",
+  },
+];
+
+
 export const projects = [
   {
+    slug: "happy-paws",
     title: "Happy Paws",
     description:
+      "A full-stack platform connecting donors with street animals in need of medical care, food, and shelter across Bangladesh.",
+    longDescription:
       "HappyPaws is a full-stack web application designed to support animal welfare in Bangladesh. The platform connects compassionate donors with street animals in need of medical care, food, and shelter. It provides a transparent and secure way for the public to donate, view rescued animals, and support an animal rescue network operating across Bangladesh.",
+    techStack: ["MongoDB", "Express", "React", "Node.js", "SSLCommerz", "REST API"],
     tags: ["MongoDB", "Express", "React", "Node.js", "sslcommerz", "API"],
     github: "https://github.com/c-tasnia/happypaws2.0",
     live: "https://happypaws2-0-1sen.vercel.app/",
     image: "/happypaws12.png",
+    challenges:
+      "TODO: e.g. integrating SSLCommerz payment gateway securely, handling real-time donation tracking, verifying rescue reports from the public.",
+    improvements:
+      "TODO: e.g. add an admin dashboard for shelters, push notifications for urgent rescue cases, a mobile app version.",
   },
 
   {
+    slug: "task-management-dashboard",
     title: "Task Management Dashboard",
     description:
       "Kanban-style task manager with drag-and-drop boards, team workspaces, and role-based access control.",
+    longDescription:
+      "Kanban-style task manager with drag-and-drop boards, team workspaces, and role-based access control.",
+    techStack: ["React", "Node.js", "Vite", "Tailwind CSS", "Express"],
     tags: ["React", "Node.js", "Vite", "Tailwind", "Express"],
     github: "https://github.com/c-tasnia/taskflow",
     live: "https://taskflow-rho-eight-29.vercel.app/",
-    image: "/projects/task-manager.png",
+    image: "/taskflow12.png",
+    challenges:
+      "TODO: e.g. implementing smooth drag-and-drop across boards, managing role-based permissions cleanly, real-time sync between team members.",
+    improvements:
+      "TODO: e.g. add real-time collaboration with websockets, activity/audit logs, calendar view integration.",
   },
 
   {
+    slug: "real-time-budget-tracker",
     title: "Real-Time Budget Tracker",
     description:
+      "Client-side budget tracking app with localStorage-based persistence, recurring transaction scheduling, and CSV export.",
+    longDescription:
       "Client-side budget tracking app with localStorage-based persistence, recurring transaction scheduling, and CSV export for offline financial logging.",
+    techStack: ["HTML", "CSS", "JavaScript"],
     tags: ["html", "css", "js"],
     // github: "https://github.com/yourusername/chat-app",
     live: "https://budget-tracker-iota-green.vercel.app/",
-    image: "/projects/chat-app.png",
+    image: "/ledger.png",
+    challenges:
+      "TODO: e.g. designing recurring transaction logic without a backend, keeping localStorage data structured and reliable, generating accurate CSV exports.",
+    improvements:
+      "TODO: e.g. add a backend with account sync, data visualization/charts for spending trends, multi-currency support.",
   },
-  
+
   {
+    slug: "world-cup-2026-tracker",
     title: "World Cup 2026 Tracker",
     description:
+      "Live scoreboard dashboard with real-time group standings, fixtures, top scorers, and an interactive knockout bracket.",
+    longDescription:
       "Live scoreboard dashboard for the tournament with real-time group standings, fixtures, top scorers, and an interactive knockout bracket.",
-   tags: ["JavaScript", "HTML5", "CSS3", "Data Visualization", "REST API", "Responsive Design"],
+    techStack: ["JavaScript", "HTML5", "CSS3", "REST API"],
+    tags: ["JavaScript", "HTML5", "CSS3", "Data Visualization", "REST API", "Responsive Design"],
     // github: "https://github.com/yourusername/ecommerce-app",
     live: "https://wc2026-liard-sigma.vercel.app/",
-    
+    image: "/wc2026.png",
+    challenges:
+      "TODO: e.g. consuming and normalizing live sports data from a REST API, keeping the knockout bracket state accurate as results come in, handling API rate limits.",
+    improvements:
+      "TODO: e.g. add push notifications for goal updates, historical stats comparison, dark/light theme toggle.",
   },
 ];
